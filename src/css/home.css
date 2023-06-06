@@ -1,0 +1,33 @@
+.intro {
+  font-size: 5rem;
+  color: rgb(76, 79, 80);
+}
+.img {
+  width: auto;
+  height: 90vh;
+}
+.typing-text {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.button {
+  width: auto;
+  height: 2.5rem;
+}
+@media only screen and (max-width: 500px) {
+  .img {
+    margin: auto;
+    width: 15rem;
+    height: auto;
+    padding-top: 2rem;
+  }
+  .mainBox {
+    position: relative;
+  }
+  .button {
+    position: absolute;
+    top: 34rem;
+    left: 39%;
+  }
+}

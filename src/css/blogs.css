@@ -1,0 +1,10 @@
+.carousel {
+  width: auto;
+  height: 80wh;
+}
+.carousel-img {
+  border-radius: 1rem;
+  object-fit: cover;
+  width: 70rem;
+  height: 33rem;
+}

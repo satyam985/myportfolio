@@ -1,0 +1,6 @@
+.message-box {
+  border-radius: 1rem;
+  box-shadow: 1px 1px 2px #555;
+  padding: 2rem;
+  background: linear-gradient(239deg, #27c6cec7, #403b3b00);
+}

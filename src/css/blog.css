@@ -1,0 +1,25 @@
+.imageBox {
+  height: 25rem;
+  box-shadow: 1px 14px 17px black;
+}
+/*.img-box {
+  overflow: hidden;
+}*/
+
+.img-box .imageBox {
+  transition: transform 1.5s, filter 1.5s ease-in-out;
+  transform-origin: center center;
+  filter: brightness(50%);
+}
+
+.img-box:hover .imageBox {
+  filter: brightness(100%);
+  transform: scale(1.15);
+}
+.content-row {
+  transition: transform 1.5s, filter 1.5s ease-in-out;
+}
+.content-row:hover {
+  box-shadow: inset -1px 1px 11px 1px #565454b3;
+  background-color: #e7e6e6c4;
+}

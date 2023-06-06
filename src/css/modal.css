@@ -1,0 +1,36 @@
+.background-img {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background-color: rgba(104, 104, 104, 0.788);
+}
+.close-btn {
+  width: 2.5rem;
+  height: auto;
+}
+.modal-box {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 7px 17px 2px #716a6ae0;
+  border-radius: 1rem;
+  position: relative;
+}
+.heading {
+  text-shadow: -2px 1px 6px rgba(139, 139, 139, 0.836);
+}
+
+@media only screen and (max-width: 600px) {
+  .close-btn {
+    position: absolute;
+    left: 2px;
+    top: -2.2rem;
+    width: 0.6rem;
+    height: 1.8rem;
+  }
+  .project-link {
+    font-size: 12px;
+    margin: auto;
+  }
+}
